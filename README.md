@@ -10,5 +10,5 @@ I have 3 servers which is on cloud, 2 workers and 1 master
   Master 1.22.5-tke.6
   Node 1.22.5-tke.6
 
-This test app has been created an image using docker:
+This test app has been created an image using docker(Using Node.js to develop):
 https://hub.docker.com/repository/docker/yuhanpony/node-web-app
