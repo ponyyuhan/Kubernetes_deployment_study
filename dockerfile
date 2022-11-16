@@ -8,7 +8,7 @@ ADD . /app
 WORKDIR /app
 
 
-RUN npm install --registry=https://registry.npm.taobao.org
+RUN npm install
 
 
 CMD node app.js
