@@ -23,7 +23,7 @@ function getServerInfo() {
 }
 
 router.all('/', async ctx =>{
-    logger.info('Yuhan Ma page)
+    logger.info('Yuhan Ma page')
 	ctx.body = `This is yuhanma: \n\n${getServerInfo()}\n`
 });
 
