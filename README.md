@@ -15,6 +15,9 @@ I have 3 servers which is on cloud, 2 workers and 1 master
   Node 1.22.5-tke.6
 
 This test app has been created an image using docker(Using Node.js to develop):
-https://hub.docker.com/repository/docker/yuhanpony/node-web-app
+https://hub.docker.com/repository/docker/yuhanpony/web
 
-pull the image:docker pull yuhanpony/node-web-app:first-image
+
+This easy app is based on Nodejs, which also needs dependency koa, log4j,koa-router
+
+pull the image:docker pull yuhanpony/web:v1
