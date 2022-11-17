@@ -1,5 +1,5 @@
 FROM node:11
-MAINTAINER easydoc.net
+MAINTAINER Yuhan Ma
 
 
 ADD . /app
