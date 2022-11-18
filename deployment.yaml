@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+
+  name: test-k8s
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: test-k8s
+
+  template:
+    metadata:
+      labels:
+        app: test-k8s
+    spec:
+
+      containers:
+      - name: test-k8s 
+        image: yuhanpony/web:v1
